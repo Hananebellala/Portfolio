@@ -3,7 +3,15 @@
     margin: 0;
     
     box-sizing: border-box;
-    cursor: url(),auto;
+    
+}
+
+section{
+    width: 100%;
+    height: 120vh;
+    background-color: #FEFBF6;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero{
@@ -11,13 +19,13 @@
     width: 100%;
     background-size:cover;
     background-position:center;
-    background-color: #131313;
+    background-color: #FEFBF6;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
     
 }
 
-nav{
+section nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,16 +37,16 @@ nav{
 }
 
 hr{
-   color: white;
+   color: #3D3C42;
    margin-top: 20px;
    height: 1px;
    border: none;
-   background: -webkit-gradient(linear,0 0, 100% 0, from(transparent),to(transparent),color-stop(50%,white));
+   background: -webkit-gradient(linear,0 0, 100% 0, from(transparent),to(transparent),color-stop(50%,#3D3C42));
 }
 
 
 .logo{
-    color: white;
+    color: #3D3C42;
     cursor: pointer;
     letter-spacing: 1px;
     font-size: 35px;
@@ -50,7 +58,8 @@ hr{
 
 @keyframes glow{
     from{
-        text-shadow: 0 0 5px rgb(255, 215, 253),0 0 10px rgb(255, 234, 254),0 0 15px rgb(255, 252, 255);
+        
+        text-shadow: 0 0 5px #4C4C6D ,0 0 10px rgb(255, 234, 254),0 0 15px rgb(255, 252, 255);
     }
     
 }
@@ -58,7 +67,7 @@ hr{
 
 
 span{
-    color: blueviolet;
+    color: #DBC4F0;
 
     }
 nav ul li {
@@ -69,7 +78,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #3D3C42;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
@@ -78,7 +87,7 @@ nav ul li a {
 
 nav ul li a:hover{
     cursor: pointer;
-    color: indigo;
+    color: #DBC4F0;
     transition: .4s;
 }
 
@@ -89,6 +98,10 @@ nav ul li a:hover{
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
+
+    
+    
+    
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
     
@@ -104,14 +117,14 @@ nav ul li a:hover{
 }
 
 .contentt h1{
-    color: white;
+    color: #3D3C42;
     margin: 5px 0px 5px;
     font-size: 75px;
     
 }
 
 span{
-    color: blueviolet;
+    color: #DBC4F0;
 
 }
 
@@ -126,7 +139,7 @@ h3{
     margin-bottom :5px;
     letter-spacing: 2px;
     font-size: 20px;
-    color: white;
+    color: #3D3C42;
 }
 
 .imge{
@@ -153,14 +166,14 @@ h3{
    display: inline-flex;
   
    
-   border: 2px solid blueviolet;
+   border: 2px solid #DBC4F0;
    position: relative;
    overflow: hidden;
    
    text-transform: uppercase;
    font-size: .8em;
    
-   background-color:#131313;
+   background-color:#FEFBF6;
    
    align-items: center;
    justify-content: center;
@@ -171,7 +184,7 @@ h3{
 
 .btn2 a{
     text-decoration: none;
-    color: white;
+    color: #3D3C42;
     letter-spacing: 1px;
 
     position: relative;
@@ -184,7 +197,7 @@ h3{
     height: 250%;
     left: -200px;
     top: -30px;
-    background:white ;
+    background:#3D3C42 ;
     position: absolute;
     transition: all .3s ease-out;
 }
@@ -194,19 +207,19 @@ h3{
 }
 
 .btn2:hover a{
-    color: blueviolet;
+    color: #DBC4F0;
 }
 
    
 
 .btn2:active{
-    border-color: white;
-    background-color: blueviolet;
+    border-color: #3D3C42;
+    background-color: #DBC4F0;
 }
 
 .btn2:active a{
     text-decoration: none;
-    color: white;
+    color: #3D3C42;
     letter-spacing: 1px;
 
     position: relative;
@@ -221,17 +234,24 @@ h3{
     height: 250%;
     left: -200px;
     top: -30px;
-    background:#131313 ;
+    background:#FEFBF6 ;
     position: absolute;
     transition: all .3s ease-out;
     left: 0;
 }
 
+div{
+    display: block;
+}
+
 
 .About{
 
-    background:rgb(68, 5, 128);
-    position: absolute;
+    background:#DBC4F0;
+    
+    height: 70%;
+    width: 100%;
+    
     
     
     
@@ -249,7 +269,7 @@ h3{
     width: 400px;
     height: 400px;
     margin: 50px;
-    border-radius: 30px;
+    border-radius: 50%;
 }
 
 
@@ -262,18 +282,18 @@ h3{
    
 }
 
-.text1 h4{
+.text1 h1{
     text-align: center;
-    color: aliceblue;
+    color: #3D3C42;
     font-family:'League Spartan', Arial, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     margin: 10px;
 }
 
 .text1 p{
     margin: 20px;
     text-align: left;
-    color: aliceblue;
+    color: #3D3C42;
     font-family:'League Spartan', Arial, sans-serif;
     font-size: 18px;
     
@@ -282,7 +302,219 @@ h3{
 
 .text1 h2{
     text-align: center;
-    color:beige;
+    color:#3D3C42;
     margin: 20px;
 
+}
+
+.doing{
+
+    background:#DBC4F0;
+    
+
+    width: 100%;
+    height: auto;
+    padding: 20px;
+ 
+}
+
+
+.doing .title{
+    text-align: center;
+    color: #3D3C42;
+    font-family:'League Spartan', Arial, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.skillsBox{
+    width: 95%;
+    height: 70vh;
+    
+    margin-top: 80px;
+    margin-right: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    overflow: hidden;
+    
+}
+
+.skillsBox .box_content{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #FEFBF6;
+    margin:  auto 20px;
+}
+
+.skillsBox .box_content:hover{
+    
+      box-shadow: 0 0 5px #5f5f64;
+    
+}
+
+
+.skillsBox .box_content .box_icon1 {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    left: 50px;
+    top: 30px;
+   
+    
+    
+}
+
+.skillsBox .box_content .box_icon2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+
+
+.skillsBox .box_content .box_icon3 {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    
+}
+
+.skillsBox .box_content .box_icon4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    
+}
+
+.skillsBox .box_content .box_icon1 p{
+
+    
+    font-size: 25px;
+    font-weight: bold;
+    color:#4C4C6D ;
+    position: relative;
+    top:-65px;
+    left: -50px;
+    
+}
+
+.skillsBox .box_content .box_icon2 p{
+
+    
+    font-size: 25px;
+    font-weight: bold;
+    color:#4C4C6D  ;
+    position: relative;
+    top:-40px;
+    left: -20px;
+    
+}
+
+.skillsBox .box_content .box_icon3 p{
+
+    
+    font-size: 25px;
+    font-weight: bold;
+    color:#4C4C6D  ;
+    position: relative;
+    top:-65px;
+    left: -50px;
+    
+}
+
+.skillsBox .box_content .box_icon4 p{
+
+   
+    font-size: 25px;
+    font-weight: bold;
+    color:#4C4C6D  ;
+    position: relative;
+    top:-65px;
+    left: -50px;
+    
+}
+
+
+.experience{
+
+    background:#FEFBF6;
+    
+
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    padding: 300px 0;
+ 
+}
+
+.experience h1{
+    
+    color: #3D3C42;
+    font-family:'League Spartan', Arial, sans-serif;
+    font-size: 45px;
+    
+    
+
+}
+
+
+
+.contact{
+
+    background:#DBC4F0;
+    
+
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+    
+ 
+}
+
+.contact h1 {
+    color: #3D3C42;
+    font-family:'League Spartan', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.contact .socials {
+    width: 95%;
+    height: 40vh;
+    
+    margin-top: 0px;
+    margin-right: 100px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    overflow: hidden;
+}
+
+.contact .socials .social_icons {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    
+    left: 150px;
 }
