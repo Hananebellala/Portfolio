@@ -138,7 +138,7 @@ h3{
 .hello{
     margin-bottom :5px;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 30px;
     color: #3D3C42;
 }
 
@@ -517,4 +517,13 @@ div{
     top: 70px;
     
     left: 150px;
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity:1;
 }
